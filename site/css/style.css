@@ -119,17 +119,35 @@ h1{
 	/*color: white;*/
 	margin-left: 5px;
 	font-size: 50px;
-	color: #444;
-
 	text-align: left;
 }
+
 h2{
 	font-family: 'Quicksand',cursive;
 	/*color:white;*/
 	background-color: #F5EDEB;
 	margin-left: 5px;
-	font-size: 20px;
+	color: #444;
+    position: relative;
+    font-size: 20px;
 	text-align: left;
+}
+h2 span{/*efecto maquina escribir*/
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #F5EDEB;
+    border-left: 1px solid #F5EDEB;
+    animation: maquina 10s infinite  steps(81);
+    
+}
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
 }
 h3{
 	color: white;
