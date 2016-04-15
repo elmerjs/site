@@ -1,4 +1,4 @@
-#menu-bar {
+﻿#menu-bar {
     display: none;
     
 }
@@ -27,7 +27,7 @@ header label {
     color: #fff;
     height: 50px;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px; /*se disminuye el paddin porque se distorciona en mozilla e Iexplorer*/
     border-bottom: 1px solid rgba(255,255,255,0.3);/*linea que divide los menus*/
 }
 
